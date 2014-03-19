@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AgeOfConsent_Description" xml:space="preserve">
+    <value>A young person under the age of 16 years may sign here if they have been shown to have capacity.</value>
+  </data>
+  <data name="AgeOfConsent_Header" xml:space="preserve">
+    <value>Age of Consent</value>
+  </data>
+  <data name="AlternativeProcedures_Title" xml:space="preserve">
+    <value>Alternative Procedures</value>
+  </data>
+  <data name="Anaesthesia_GeneralAnaesthesia" xml:space="preserve">
+    <value>General and/or Regional Anaesthesia</value>
+  </data>
+  <data name="Anaesthesia_LocalAnaesthesia" xml:space="preserve">
+    <value>Local Anaesthesia</value>
+  </data>
+  <data name="Anaesthesia_Sedation" xml:space="preserve">
+    <value>Sedation</value>
+  </data>
+  <data name="Anaesthesia_Title" xml:space="preserve">
+    <value>Anaesthesia</value>
+  </data>
+  <data name="CapacityDetails_Header" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="CapacityTest_Title" xml:space="preserve">
+    <value>CAPACITY TEST</value>
+  </data>
+  <data name="CapacityTest_Description" xml:space="preserve">
+    <value>Please confirm the patient has capacity to make this decision at this time</value>
+  </data>
+  <data name="CapacityTest_Header" xml:space="preserve">
+    <value>Capacity Test</value>
+  </data>
+  <data name="CJDRiskAssessment_Item1" xml:space="preserve">
+    <value>Has the patient ever been officially informed that they are at an increased risk of CJD or vCJD</value>
+  </data>
+  <data name="CJDRiskAssessment_Item2" xml:space="preserve">
+    <value>If YES, has a formal risk assessment been carried out</value>
+  </data>
+  <data name="CJDRiskAssessment_Title" xml:space="preserve">
+    <value>CJD Risk Assessment</value>
+  </data>
+  <data name="HealthProfessionalDetails_Title" xml:space="preserve">
+    <value>HEALTH PROFESSIONAL DETAILS</value>
+  </data>
+  <data name="Common_Benefits" xml:space="preserve">
+    <value>Benefits: </value>
+  </data>
+  <data name="Common_BloodTranfusionConsent" xml:space="preserve">
+    <value>Blood Transfusion Consent</value>
+  </data>
+  <data name="Common_ConsentHealthProfessional" xml:space="preserve">
+    <value>Consent Health Professional</value>
+  </data>
+  <data name="Common_ContactNumber" xml:space="preserve">
+    <value>Contact Number</value>
+  </data>
+  <data name="Common_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Common_DOB" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Common_Finish" xml:space="preserve">
+    <value>FINISH</value>
+  </data>
+  <data name="Common_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Common_GeneralConsent" xml:space="preserve">
+    <value>Consent/Assent</value>
+  </data>
+  <data name="Common_HealthProfessional" xml:space="preserve">
+    <value>Health Professional</value>
+  </data>
+  <data name="Common_HealthProfessionalSignature" xml:space="preserve">
+    <value>Health Professional Signature</value>
+  </data>
+  <data name="Common_JobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="Common_Menu" xml:space="preserve">
+    <value>MENU</value>
+  </data>
+  <data name="Common_Next" xml:space="preserve">
+    <value>NEXT</value>
+  </data>
+  <data name="Common_NHSNumber" xml:space="preserve">
+    <value>NHS Number</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="Common_OneStageConsent" xml:space="preserve">
+    <value>One Stage Consent</value>
+  </data>
+  <data name="Common_OrganDonationConsent" xml:space="preserve">
+    <value>Organ Donation Consent</value>
+  </data>
+  <data name="Common_ParentOrRepresentativeName" xml:space="preserve">
+    <value>Parent's/Representative's Name</value>
+  </data>
+  <data name="Common_PatientName" xml:space="preserve">
+    <value>Patient's Name</value>
+  </data>
+  <data name="Common_PatientOrRepresentativeName" xml:space="preserve">
+    <value>Patient's/Representative's Name</value>
+  </data>
+  <data name="Common_PatientOrRepresentativeSignature" xml:space="preserve">
+    <value>Patient's/Representative's Signature</value>
+  </data>
+  <data name="Common_PatientSignature" xml:space="preserve">
+    <value>Patient's Signature</value>
+  </data>
+  <data name="Common_PhotograpicConsent" xml:space="preserve">
+    <value>Photographic Consent</value>
+  </data>
+  <data name="Common_PostMortemConsent" xml:space="preserve">
+    <value>Post-Morten Consent</value>
+  </data>
+  <data name="Common_WitnessName" xml:space="preserve">
+    <value>Witness's Name</value>
+  </data>
+  <data name="Common_Procedures" xml:space="preserve">
+    <value>Procedure Name</value>
+  </data>
+  <data name="Common_Relationship" xml:space="preserve">
+    <value>Relationship to the patient</value>
+  </data>
+  <data name="Common_ResponsibleHealthProfessional" xml:space="preserve">
+    <value>Responsible Health Professional</value>
+  </data>
+  <data name="Common_Risks" xml:space="preserve">
+    <value>Risks: </value>
+  </data>
+  <data name="Common_RoleOrRelationship" xml:space="preserve">
+    <value>Role/Relationship</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="Common_Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="Common_Signed" xml:space="preserve">
+    <value>Signed</value>
+  </data>
+  <data name="Common_SpecialRequirements" xml:space="preserve">
+    <value>Special Requirements</value>
+  </data>
+  <data name="Common_Surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="DeclarationDetails_Header" xml:space="preserve">
+    <value>Declaration</value>
+  </data>
+  <data name="FinalConsent_ConsentInformation" xml:space="preserve">
+    <value>Confirmation of consent (to be completed by the patient and a health professional after the First Stage has been completed and within 72 hours of the procedure.). On behalf of the team treating the patient, the health professional has confirmed with the patient that he/she has no further questions and wishes the procedure to go ahead.</value>
+  </data>
+  <data name="FinalConsent_Header" xml:space="preserve">
+    <value>Final Consent</value>
+  </data>
+  <data name="FinalConsent_Title" xml:space="preserve">
+    <value>FINAL STAGE CONSENT</value>
+  </data>
+  <data name="FirstStageConsentAdult_Paragraph1" xml:space="preserve">
+    <value>Please read this form carefully. If the patient's treatment is being planned in advance, patient may be given a patient information leaflet about the procedure. If the patient has any further questions, please ask the responsible health professional(s) immediately.</value>
+  </data>
+  <data name="FirstStageConsentAdult_Paragraph2" xml:space="preserve">
+    <value>The patient has the right to change his/her mind at any time, including after signature is captured at this stage.</value>
+  </data>
+  <data name="FirstStageConsentAdult_Paragraph3" xml:space="preserve">
+    <value>The patient understands that health professionals cannot give him/her a guarantee that a particular person will perform the procedure. The person will, however, have appropriate experience and training.</value>
+  </data>
+  <data name="FirstStageConsentAdult_Paragraph4" xml:space="preserve">
+    <value>The patient understands that he/she will have the opportunity to discuss the details of anaesthesia with an anaesthetist before the procedure, unless the urgency of situation prevents this. (This only applies to patients having general or regional anaesthesia).</value>
+  </data>
+  <data name="FirstStageConsentAdult_Paragraph5" xml:space="preserve">
+    <value>The patient understands that any procedures in addition to those described on this form will only be carried out if it is necessary to save his/her life or to prevent serous harm to his/her health.</value>
+  </data>
+  <data name="FirstStageConsentAdult_Paragraph6" xml:space="preserve">
+    <value>The patient has been told about additional procedures which may become necessary during his/her treatment. The patient has listed below any procedures which he/she do not wish to be carried out without further discussion.</value>
+  </data>
+  <data name="FirstStageConsentAdult_Subtitle1" xml:space="preserve">
+    <value>Statement of ADULT patient and young people aged 16 years and above.</value>
+  </data>
+  <data name="FirstStageConsentAdult_Subtitle2" xml:space="preserve">
+    <value>A young person under the age of 16 years may sign here if they have been shown to have capacity.</value>
+  </data>
+  <data name="FirstStageConsentProxy_Paragraph1" xml:space="preserve">
+    <value>Please read this form carefully. If your treatment is being planned in advance, you may be given a patient information leaflet about the procedure. If you have any further questions, you must ask - we are here to help you.</value>
+  </data>
+  <data name="FirstStageConsentProxy_Paragraph2" xml:space="preserve">
+    <value>The parent/representative has the right to change his/her mind at any time, including after signature is captured at this stage.</value>
+  </data>
+  <data name="FirstStageConsentProxy_Paragraph3" xml:space="preserve">
+    <value>The parent/representative agrees to the procedure or course of treatment described on this form.</value>
+  </data>
+  <data name="FirstStageConsentProxy_Paragraph4" xml:space="preserve">
+    <value>The parent/representative understands that the health professionals cannot give a guarantee that a particular person will perform the procedure. the person will, however, have appropriate experience and training.</value>
+  </data>
+  <data name="FirstStageConsentProxy_Paragraph5" xml:space="preserve">
+    <value>The parent/representative understands that his/her child/client and himself/herself will have the opportunity to discuss the details of anaesthesia with an anaesthetist before the procedure, unless the urgency of the situation prevents this. (This only applies to children having general or regional anaesthesia).</value>
+  </data>
+  <data name="FirstStageConsentProxy_Paragraph6" xml:space="preserve">
+    <value>The parent/representative understands that any procedures in addition to those described on this form will only be carried out if it is necessary to save the life of his/her child/client or to prevent serous harm to his or her health.</value>
+  </data>
+  <data name="FirstStageConsentProxy_Paragraph7" xml:space="preserve">
+    <value>The parent/representative has been told about additional procedures which may become necessary during his/her child/client's treatment. The parent/representative has listed below any procedures which he/she do not wish to be carried out without further discussion.</value>
+  </data>
+  <data name="FirstStageConsentProxy_Subtitle" xml:space="preserve">
+    <value>Statement of parent or legal proxy for a CHILD under 16 years old and not legally competent</value>
+  </data>
+  <data name="FirstConsent_Title" xml:space="preserve">
+    <value>FIRST STAGE CONSENT</value>
+  </data>
+  <data name="FirstConsent_Header" xml:space="preserve">
+    <value>First Consent</value>
+  </data>
+  <data name="HealthCareProfessionalDeclaration_Title" xml:space="preserve">
+    <value>Health Care Professional Declaration</value>
+  </data>
+  <data name="InterpreterDetails_Header" xml:space="preserve">
+    <value>Interpreter Details</value>
+  </data>
+  <data name="InterpreterSignature_Declaration" xml:space="preserve">
+    <value>I have interpreted the information to the patient to the best of my ability and in a way in which I believe the patient can understand.</value>
+  </data>
+  <data name="InterpreterSignature_Header" xml:space="preserve">
+    <value>Interpreter</value>
+  </data>
+  <data name="InterpreterSignature_Title" xml:space="preserve">
+    <value>INTERPRETER SIGNATURE</value>
+  </data>
+  <data name="LanguageAssessment_Description" xml:space="preserve">
+    <value>Please confirm patient understands English language</value>
+  </data>
+  <data name="LanguageAssessment_Header" xml:space="preserve">
+    <value>Language Assessment</value>
+  </data>
+  <data name="MainWindow_Title" xml:space="preserve">
+    <value>Electronic Patient Consent System</value>
+  </data>
+  <data name="MedicalStudents_Agreement1" xml:space="preserve">
+    <value>The patient/parent agrees that in the interests of training competent health care professionals for the future students may be allowed to observe the patient's/child's operation</value>
+  </data>
+  <data name="MedicalStudents_Agreement2" xml:space="preserve">
+    <value>The patient/parents agrees that in the interests of education, medical students may be allowed to contribute to the patient's/child's operation on the understanding that their contribution is fully supervised and within their current experience and competence</value>
+  </data>
+  <data name="MedicalStudents_Agreement3" xml:space="preserve">
+    <value>The patient/parent agrees to photography and/or videos taken during the procedure for the purpose of adding dinical information to my medical notes. Additional consent is required for these images to be used for any other purpose</value>
+  </data>
+  <data name="MedicalStudents_Title" xml:space="preserve">
+    <value>INVOLVEMENT OF MEDICAL/NURSING STUDENTS AND PHOTOGRAPHY/FILMING</value>
+  </data>
+  <data name="PatientDetails_Header" xml:space="preserve">
+    <value>Demographic</value>
+  </data>
+  <data name="PatientDetails_Title" xml:space="preserve">
+    <value>Patient Details</value>
+  </data>
+  <data name="ProcedureDetails_Header" xml:space="preserve">
+    <value>Procedures</value>
+  </data>
+  <data name="ProceduresSelected_Title" xml:space="preserve">
+    <value>PROCEDURES PROPOSED</value>
+  </data>
+  <data name="Qualification_Description" xml:space="preserve">
+    <value>Please confirm that you are trained to take consent for this procedure or qualified to perform the procedure?</value>
+  </data>
+  <data name="Qualification_Header" xml:space="preserve">
+    <value>Are you qualified to take Consent?</value>
+  </data>
+  <data name="ConsentStage_Description" xml:space="preserve">
+    <value>Please choose appropriate consent stage from the following options</value>
+  </data>
+  <data name="ConsentStage_StageEmergency" xml:space="preserve">
+    <value>Final Stage</value>
+  </data>
+  <data name="ConsentStage_Header" xml:space="preserve">
+    <value>Consent Stage</value>
+  </data>
+  <data name="ConsentStage_StageNormal" xml:space="preserve">
+    <value>Two Stage</value>
+  </data>
+  <data name="Watermark_Benefits" xml:space="preserve">
+    <value>Please enter benefits of the procedure</value>
+  </data>
+  <data name="Watermark_HealthProfessionalContactNumber" xml:space="preserve">
+    <value>Please enter the health professional's contact number (if applicable)</value>
+  </data>
+  <data name="Watermark_PatientDOB" xml:space="preserve">
+    <value>Please enter the patient's date of birth</value>
+  </data>
+  <data name="Watermark_PersonFirstName" xml:space="preserve">
+    <value>Please enter the person's first name</value>
+  </data>
+  <data name="Watermark_PersonJobTitle" xml:space="preserve">
+    <value>Please enter the person's job title</value>
+  </data>
+  <data name="Watermark_PatientNHSNumber" xml:space="preserve">
+    <value>Please enter patient's NHS number</value>
+  </data>
+  <data name="Watermark_Procedures" xml:space="preserve">
+    <value>Please enter the name of the procedure</value>
+  </data>
+  <data name="Watermark_Risks" xml:space="preserve">
+    <value>Please enter risks of the procedure</value>
+  </data>
+  <data name="Watermark_PersonRoleOrRelationship" xml:space="preserve">
+    <value>Please enter the person's role or relationship</value>
+  </data>
+  <data name="Watermark_PatientSpecialRequirements" xml:space="preserve">
+    <value>Please enter patient's special requirements (if applicable)</value>
+  </data>
+  <data name="Watermark_PersonSurname" xml:space="preserve">
+    <value>Please enter the person's surname</value>
+  </data>
+  <data name="Witness_Header" xml:space="preserve">
+    <value>Witness</value>
+  </data>
+  <data name="Witness_InterpreterInfo" xml:space="preserve">
+    <value>INTERPRETER (where appropriate): I have interpreted the information above to the patient to the best of my ability and in a way in which I believe the patient can understand.</value>
+  </data>
+  <data name="Witness_Title" xml:space="preserve">
+    <value>WITNESS</value>
+  </data>
+  <data name="Witness_WitnessInformation1" xml:space="preserve">
+    <value>A witness should sign below if the patient is unable to sign but has indicated his or her consent.</value>
+  </data>
+  <data name="Witness_WitnessInformation2" xml:space="preserve">
+    <value>Young people aged 16 or 17 years old and children with capacity may also like a parent to sign here.</value>
+  </data>
+  <data name="AgeOfConsent_Confrimation" xml:space="preserve">
+    <value>Please confirm if the young person wish to consent for himself/herself.</value>
+  </data>
+  <data name="Watermark_HealthProfessionalJobTitle" xml:space="preserve">
+    <value>Please enter the health professional's job title</value>
+  </data>
+  <data name="Watermark_HealthProfessionalFullName" xml:space="preserve">
+    <value>Please enter the health professional's full name</value>
+  </data>
+  <data name="Watermark_Date" xml:space="preserve">
+    <value>Please enter the date</value>
+  </data>
+  <data name="Watermark_HealthProfessionalSignature" xml:space="preserve">
+    <value>Please SIGN here (health professional)</value>
+  </data>
+  <data name="Common_Interpreter" xml:space="preserve">
+    <value>Interpreter</value>
+  </data>
+  <data name="Common_InterpreterFullName" xml:space="preserve">
+    <value>Please enter the interpreter's full name</value>
+  </data>
+  <data name="Watermark_Comment" xml:space="preserve">
+    <value>Please enter comments here (if applicable)</value>
+  </data>
+  <data name="Watermark_HealthProfessionalFirstName" xml:space="preserve">
+    <value>Please enter the health professional's first name</value>
+  </data>
+  <data name="Watermark_HealthProfessionalSurname" xml:space="preserve">
+    <value>Please enter the health professional's surname</value>
+  </data>
+  <data name="Watermark_InterpreterFullName" xml:space="preserve">
+    <value>Please enter the interpreter's full name</value>
+  </data>
+  <data name="Watermark_InterpreterSignature" xml:space="preserve">
+    <value>Please SIGN here (interpreter)</value>
+  </data>
+  <data name="Watermark_ParentOrRepresentativeFullName" xml:space="preserve">
+    <value>Please enter the parent or representative's full name</value>
+  </data>
+  <data name="Watermark_ParentOrRepresentativeSignature" xml:space="preserve">
+    <value>Please SIGN here (parent or representative)</value>
+  </data>
+  <data name="Watermark_PatientFirstName" xml:space="preserve">
+    <value>Please enter the patient's first name</value>
+  </data>
+  <data name="Watermark_PatientFullName" xml:space="preserve">
+    <value>Please enter the patient's full name</value>
+  </data>
+  <data name="Watermark_PatientOrRepresentativeFullName" xml:space="preserve">
+    <value>Please enter the patient or representative's full name</value>
+  </data>
+  <data name="Watermark_PatientOrRepresentativeSignature" xml:space="preserve">
+    <value>Please SIGN here (patient or representative)</value>
+  </data>
+  <data name="Watermark_PatientSignature" xml:space="preserve">
+    <value>Please SIGN here (patient)</value>
+  </data>
+  <data name="Watermark_PatientSurname" xml:space="preserve">
+    <value>Please enter the patient's surname</value>
+  </data>
+  <data name="Watermark_WitnessFullName" xml:space="preserve">
+    <value>Please enter the witness's full name</value>
+  </data>
+  <data name="Watermark_WitnessSignature" xml:space="preserve">
+    <value>Please SIGN here (witness)</value>
+  </data>
+  <data name="ValidationMessage_TelephoneNumberValidation" xml:space="preserve">
+    <value>The contact number must be in a valid format, i.e, +44 0203 299 9000</value>
+  </data>
+  <data name="ProcedureList_Header" xml:space="preserve">
+    <value>Procedure Search</value>
+  </data>
+  <data name="Watermark_SearchProcedure" xml:space="preserve">
+    <value>Search Procedure</value>
+  </data>
+  <data name="Common_AddProcedures" xml:space="preserve">
+    <value>Add Procedures</value>
+  </data>
+  <data name="Common_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="FollowsSelected_Title" xml:space="preserve">
+    <value>THE POST-OPERATIVE/FOLLOW-UP CARE</value>
+  </data>
+  <data name="Watermark_Description" xml:space="preserve">
+    <value>Please enter description for your procedure</value>
+  </data>
+  <data name="ValidationMessage_LettersAndSpaceValidation" xml:space="preserve">
+    <value>Use letters (a-z) and space only</value>
+  </data>
+  <data name="ValidationMessage_RequiredField" xml:space="preserve">
+    <value>This field can not be empty</value>
+  </data>
+  <data name="InterpreterDetails_Present" xml:space="preserve">
+    <value>Is the interpreter present?</value>
+  </data>
+  <data name="Anaesthesia_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Watermark_AnaesthesiaOther" xml:space="preserve">
+    <value>Please enter the details here if other anaesthesia is required</value>
+  </data>
+  <data name="Common_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Common_Followup" xml:space="preserve">
+    <value>The Post-operative/Follow-up Cares: </value>
+  </data>
+  <data name="CapacityDetails_DoesPatientHaveASoundedMind" xml:space="preserve">
+    <value>Is there an impairment of or disturbance in the functioning of the patient's mind or brain?</value>
+  </data>
+  <data name="CapacityDetails_DoesPatientLackCapacityToDecide" xml:space="preserve">
+    <value>On the balance of probabilities, based on the evidence above, does the patient HAVE the capacity to make this particular decision at this moment in time?</value>
+  </data>
+  <data name="CapacityDetails_DoesPatientUnderstandInformationProvided" xml:space="preserve">
+    <value>Is the patient able to understand the information relating to the decision to be made?</value>
+  </data>
+  <data name="CapacityDetails_IsPatientAbleToCommunicateDecision" xml:space="preserve">
+    <value>Is the patient able to communicate their decision, by any means possible, if necessary with the help of speech and language therapists?</value>
+  </data>
+  <data name="CapacityDetails_IsPatientAbleToRetainInformationProvided" xml:space="preserve">
+    <value>Is the patient able to retain the information relating to the decision to be made?</value>
+  </data>
+  <data name="CapacityDetails_IsPatientAbleToUseInfromationProvided" xml:space="preserve">
+    <value>Is the patient able to use the information to enable them to make an informed decision?</value>
+  </data>
+  <data name="CapacityDetails_IsPatientUnconscious" xml:space="preserve">
+    <value>Is the patient UNCONSCIOUS?</value>
+  </data>
+  <data name="CapacityDetails_SupportProvided" xml:space="preserve">
+    <value>Please enter the details of support provided to the patient to enable them to make the decision themselves</value>
+  </data>
+  <data name="Common_ProcedureName" xml:space="preserve">
+    <value>Procedure Name</value>
+  </data>
+  <data name="Watermark_Evidence" xml:space="preserve">
+    <value>Please provide evidence for your answer</value>
+  </data>
+  <data name="Watermark_FollowupCare" xml:space="preserve">
+    <value>Please enter follow-up cares of the procedure</value>
+  </data>
+  <data name="Watermark_IsPatientConscious" xml:space="preserve">
+    <value>What is the reason for a Capacity Assessment, i.e., behaviour, circumstances, concerns, medical diagnosis and etc.?</value>
+  </data>
+  <data name="Watermark_SupportProvided" xml:space="preserve">
+    <value>Attends with someone who knows them well
+Enough time allowed
+Best time of the day
+Using communication methods that the patient understands</value>
+  </data>
+  <data name="AssentDetails_Header" xml:space="preserve">
+    <value>Assent</value>
+  </data>
+  <data name="AssentDetails_Title" xml:space="preserve">
+    <value>Assent Details</value>
+  </data>
+  <data name="CapacityDetails_CanTheDecisionWait" xml:space="preserve">
+    <value>Can the decision wait?</value>
+  </data>
+  <data name="CapacityDetails_IsLackOfCapacityPermanent" xml:space="preserve">
+    <value>Is the capacity loss likely to be PERMANENT?</value>
+  </data>
+  <data name="Common_AddAlternativeProcedures" xml:space="preserve">
+    <value>Add Alternative Procedures</value>
+  </data>
+  <data name="AssentDecision_DecisionMakerSignature" xml:space="preserve">
+    <value>Decision Maker Signature</value>
+  </data>
+  <data name="AssentDecision_FinalDecision" xml:space="preserve">
+    <value>Final Decision</value>
+  </data>
+  <data name="AssentDetails_AdvanceDecisionIsInPlace" xml:space="preserve">
+    <value>If the decision relates to treatment, is there an advance decision in place? (Important in cases where life-sustaining treatment is being refused)</value>
+  </data>
+  <data name="AssentDecision_AssentDecisionDescription" xml:space="preserve">
+    <value>The decision made, on the basis of all the facts and views expressed</value>
+  </data>
+  <data name="AssentDetails_DOLSRequired" xml:space="preserve">
+    <value>Is it necessary to consider issues around Deprivation of Liberty?</value>
+  </data>
+  <data name="AssentDetails_IMCAHasBeenInstructed" xml:space="preserve">
+    <value>Has an IMCA been instructed?</value>
+  </data>
+  <data name="AssentDecision_InterestedPartiesContact" xml:space="preserve">
+    <value>Contact Details</value>
+  </data>
+  <data name="AssentDecision_InterestedPartiesName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="AssentDecision_InterestedPartiesRelationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="AssentDecision_InterestedPartiesView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="AssentDetails_LPAIsAvailable" xml:space="preserve">
+    <value>Is there anyone with lasting powers of attorney for welfare or a court deputy for making health decisions? (Note that some LPAs are for financial affairs only)</value>
+  </data>
+  <data name="AssentDetails_PatientFriendFamilyWillingToBeConsulted" xml:space="preserve">
+    <value>Are the patient's friends/family appropriate and willing to be consulted?</value>
+  </data>
+  <data name="AssentDetails_PatientHasExpressedAView" xml:space="preserve">
+    <value>Has the patient expressed a view?</value>
+  </data>
+  <data name="AssentDetails_PatientHasFriendFamilyToConsult" xml:space="preserve">
+    <value>Does the patient have friends/family who can be consulted?</value>
+  </data>
+  <data name="Common_DecisionMaker" xml:space="preserve">
+    <value>Decision Maker</value>
+  </data>
+  <data name="Watermark_AssentFinalDecision" xml:space="preserve">
+    <value>Please enter the details of decision made, on the basis of all the facts and views expressed</value>
+  </data>
+  <data name="Watermark_DecisionMakerFullName" xml:space="preserve">
+    <value>Please enter the decision maker's full name</value>
+  </data>
+  <data name="Watermark_DecisionMakerJobTitle" xml:space="preserve">
+    <value>Please enter the decision maker's job title</value>
+  </data>
+  <data name="AssentDecision_Header" xml:space="preserve">
+    <value>Decision</value>
+  </data>
+  <data name="AssentDecision_AssentDecisionConfirmation" xml:space="preserve">
+    <value>I confirm that the decision made on behalf of the patient was reached after careful consideration of all the facts and the views expressed by those with an interest in the patient's welfare.  I consider the decision to be in the best interests of the patient and is the least restrictive option available.</value>
+  </data>
+  <data name="Watermark_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Watermark_FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Watermark_Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Watermark_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+</root>

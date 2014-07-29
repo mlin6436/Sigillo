@@ -1,4 +1,4 @@
 Sigillo
 =======
 
-The WPF app (excluding service layer and database) for taking and authenticating patient consent electronically, aka eConsent System.
+The WPF front-end implementaiton for hospital patient consent process using MVVM, DI and Entity Framework.
